@@ -78,7 +78,7 @@ Config.PenghapusanProp = {
 
 # Previews Video
 
-![previewresmonside](https://r2.fivemanage.com/WX5Hv6yMgODTgG2WF6rml/previewvideo_compress.gif)
+![previewresmonside](https://r2.fivemanage.com/WX5Hv6yMgODTgG2WF6rml/previewvideo.mp4)
 
 # Previews Resmon Client Side
 
