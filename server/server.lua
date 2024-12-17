@@ -2,19 +2,19 @@
 if Config.JalanOtomatis then
     if Config.PenghapusanKendaraan.enable then -- validasi diaktifkan untuk penghapusan kendaran
         lib.cron.new('* */'..Config.PenghapusanKendaraan.setiap..' * * *', function() -- Berjalan Waktu Setiap jamnya
-            perulangan(Config.PenghapusanKendaraan.countdownSetiap)
+            perulangan(Config.PenghapusanKendaraan.countdownSetiap, 5)
         end)
     end
 
     if Config.PenghapusanPed.enable then -- validasi diaktifkan untuk penghapusan ped
         lib.cron.new('* */'..Config.PenghapusanPed.setiap..' * * *', function() -- Berjalan Waktu Setiap jamnya
-            perulangan(Config.PenghapusanPed.countdownSetiap)
+            perulangan(Config.PenghapusanPed.countdownSetiap, 5)
         end)
     end
 
     if Config.PenghapusanProp.enable then -- validasi diaktifkan untuk penghapusan prop
         lib.cron.new('* */'..Config.PenghapusanProp.setiap..' * * *', function() -- Berjalan Waktu Setiap jamnya
-            perulangan(Config.PenghapusanProp.countdownSetiap)
+            perulangan(Config.PenghapusanProp.countdownSetiap, 5)
         end)
     end
 end
